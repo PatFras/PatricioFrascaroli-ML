@@ -1,0 +1,94 @@
+/* HEADER */
+.home-header {
+    background-color: var(--colorAmarillo);
+    padding-bottom: 10px;
+}
+
+.home-header-logo {
+    margin-top: 25px;
+    margin-left: 25px;
+    width: 40%;
+} 
+
+.home-header-input {
+    font-family: 'roboto';
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 160px;
+}
+
+.home-header-button-box {
+    margin-top: 1px;
+    margin-left: 15px;
+}
+
+button {
+    height: 18px; 
+}
+
+.home-header-icon-phrase {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.home-header-nav-one {
+    margin-bottom: 11px;
+}
+
+.home-header-burger-menu-contain {
+    overflow: hidden;
+    background-color: var(--colorAzul);
+    width: 28px;
+    height: 28px;
+    margin-top: 10px;
+    margin-left: 146.5px;
+    border-radius: 4px;
+}
+
+.home-header-burger-menu-contain i {
+    color: white;
+    padding: 0;
+    margin-top: 5.5px;
+    margin-left: 6.8px;
+}
+
+/* FOOTER */
+.home-footer {
+    background-color: var(--colorGrisClaro);
+    padding: 4px;
+}
+
+.home-footer-container {
+    margin-top: 5px;
+    background-color: white;
+    text-align: center;
+}
+
+.home-footer-section p {
+    font-size: 9px;
+    font-weight: 400;
+}
+
+.home-footer-section-conteiner-icon {
+    margin-bottom: 10px;
+}
+
+.footerIcons {
+    color: var(--colorAzul);
+    margin-top: 50px;
+}
+
+.home-footer-section-text {
+    width: 190px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+.home-footer-section-copyright p {
+    font-size: 9px;
+    text-align: left;
+    margin-left: 15px;
+    padding-bottom: 10px;
+}

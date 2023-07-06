@@ -1,0 +1,32 @@
+/*Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a;*/
+:root {
+    --colorGrisClaro: #ebebeb;
+    --colorAzul: #03264C;
+    --colorAmarillo: #EAC926;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: 'roboto';
+    font-size: 12px;
+}
+
+ul li {
+    font-family: 'roboto';
+    font-size: 12px;
+}
+
+h5 {
+    font-family: 'roboto';
+    font-size: 12px;
+}

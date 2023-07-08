@@ -1,57 +1,55 @@
 /* HEADER */
 .home-header {
-    background-color: var(--colorAmarillo);
+    background-color: var(--yellow);
     padding-bottom: 10px;
 }
 
-.home-header-logo {
+.logo {
     margin-top: 25px;
     margin-left: 25px;
-    width: 40%;
-} 
+    width: 110px;
+}
+
+.searchbar-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.lupa {
+    background-color: white;
+    display: block;
+    padding: 9px 2px;
+    border-radius: 6px;
+}
 
 .home-header-input {
-    font-family: 'roboto';
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     margin-top: 10px;
     margin-left: 15px;
     width: 160px;
 }
 
-.home-header-button-box {
-    margin-top: 1px;
-    margin-left: 15px;
-}
-
-button {
-    height: 18px; 
-}
-
-.home-header-icon-phrase {
+.home-header-icon-motto {
     text-align: center;
     margin-top: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
-.home-header-nav-one {
-    margin-bottom: 11px;
+.home-header-nav {
+    display: none;
 }
 
-.home-header-burger-menu-contain {
-    overflow: hidden;
-    background-color: var(--colorAzul);
-    width: 28px;
-    height: 28px;
-    margin-top: 10px;
-    margin-left: 146.5px;
-    border-radius: 4px;
-}
-
-.home-header-burger-menu-contain i {
+.hamburger-button {
+    background-color: var(--blue);
     color: white;
-    padding: 0;
-    margin-top: 5.5px;
-    margin-left: 6.8px;
+    display: block;
+    max-width: 30px;
+    padding: 6px 0;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
 }
 
 /* FOOTER */

@@ -1,32 +1,20 @@
-/*Amarillo: #EAC926;
-Azul: #03264C;
-Celeste: #1259c3;
-Gris oscuro: #666;
-Gris claro: #ebebeb;
-Verde: #39b54a;*/
 :root {
-    --colorGrisClaro: #ebebeb;
-    --colorAzul: #03264C;
-    --colorAmarillo: #EAC926;
+    --grey: #666666;
+    --lightgray: #ebebeb;
+    --blue: #03264C;
+    --lightblue: #1259c3;
+    --yellow: #EAC926;
+    --green:  #39b54a;
 }
 
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 p {
-    font-family: 'roboto';
-    font-size: 12px;
-}
-
-ul li {
-    font-family: 'roboto';
-    font-size: 12px;
-}
-
-h5 {
-    font-family: 'roboto';
     font-size: 12px;
 }

@@ -1,4 +1,4 @@
-/* HEADER */
+ /* HEADER */
 .home-header {
     display: flex;
     flex-direction: column;
@@ -43,6 +43,7 @@
 .home-header p {
     text-align: center;
     margin-bottom: 20px;
+    font-size: 12px;
 }
 
 .home-header-nav {
@@ -66,6 +67,66 @@
     background-color: var(--lightgrey); 
 }
 
+.main-banner {
+    width: 100%;
+}
+
+.home-main-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5px 0 5px;
+}
+
+.main-title {
+    font-size: 24px;
+}
+
+.main-product-image {
+    width: 100%;
+    margin-bottom: 0.1px;
+}
+
+.article-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-bottom: solid 10px var(--lightgrey);
+}
+
+.priceBox {
+    display: flex;
+    flex-direction: column;
+    border-top: solid 1px;
+    border-color: #ebebeb;
+    margin: 15px 0 10px 0;
+    padding: 10px;
+}
+
+.truckIcon {
+    color: var(--green);
+    background-color: #ffffff;
+    border: solid 1px var(--green);
+    border-radius: 26px;
+    display: block;
+    margin: auto auto auto 0;
+    padding: 10px;
+}
+
+.prices {
+    font-size: 18px;
+    margin: 0;
+}
+
+.discount {
+    font-size: 16px;
+    color: var(--green);
+    margin: 0;
+}
+
+.description {
+    display: none;
+}
+
 /* FOOTER */
 .home-footer {
     background-color: var(--lightgrey);
@@ -75,9 +136,10 @@
     display: flex;
     flex-direction: column;
     background-color: #ffffff;
-    margin: 0 5px 10px 5px;
+    margin: 0 5px 0 5px;
     text-align: center;
     padding-top: 40px;
+    border-bottom: solid 10px var(--lightgrey);
 }
 
 .footerIcons {

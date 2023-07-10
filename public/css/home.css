@@ -1,13 +1,15 @@
 /* HEADER */
 .home-header {
+    display: flex;
+    flex-direction: column;
     background-color: var(--yellow);
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 .logo {
-    margin-top: 25px;
+    margin-top: 20px;
     margin-left: 25px;
-    width: 110px;
+    width: 110px;    
 }
 
 .searchbar-container {
@@ -15,14 +17,7 @@
     flex-direction: row;
 }
 
-.lupa {
-    background-color: white;
-    display: block;
-    padding: 9px 2px;
-    border-radius: 6px;
-}
-
-.home-header-input {
+.input {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     margin-top: 10px;
@@ -30,10 +25,24 @@
     width: 160px;
 }
 
-.home-header-icon-motto {
+.searchButton {
+    max-width: 15px;
+    max-height: 20px;
+    margin: 10px 0 0 3px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.lupa {
+    position: absolute;
+    margin: 6.5px;
+}
+
+.home-header p {
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .home-header-nav {
@@ -44,49 +53,54 @@
     background-color: var(--blue);
     color: white;
     display: block;
-    max-width: 30px;
-    padding: 6px 0;
-    border-radius: 6px;
+    width: 28px;
+    border-radius: 5px;
     text-align: center;
-    font-size: 18px;
+    font-size: 14px;
     margin: auto;
+    padding: 5px 0 3px 0;
+}
+
+/* MAIN */
+.home-main {
+    background-color: var(--lightgrey); 
 }
 
 /* FOOTER */
 .home-footer {
-    background-color: var(--colorGrisClaro);
-    padding: 4px;
+    background-color: var(--lightgrey);
 }
 
 .home-footer-container {
-    margin-top: 5px;
-    background-color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    margin: 0 5px 10px 5px;
     text-align: center;
-}
-
-.home-footer-section p {
-    font-size: 9px;
-    font-weight: 400;
-}
-
-.home-footer-section-conteiner-icon {
-    margin-bottom: 10px;
+    padding-top: 40px;
 }
 
 .footerIcons {
-    color: var(--colorAzul);
-    margin-top: 50px;
+    color: var(--blue);
+    size: 2em;
+    margin-bottom: 10px;
 }
 
-.home-footer-section-text {
-    width: 190px;
-    margin-left: 60px;
-    margin-bottom: 10px;
+.home-footer-container h6 {
+    margin: 10px 0 0 0;
+}
+
+.home-footer-container p {
+    margin: 0 0 0 70px;
+    font-size: 9px;
+    width: 175px;
+    padding: 0 0 40px 0;
 }
 
 .home-footer-section-copyright p {
     font-size: 9px;
     text-align: left;
     margin-left: 15px;
-    padding-bottom: 10px;
+    width: 200px;
+    padding: 0 0 10px 0;
 }

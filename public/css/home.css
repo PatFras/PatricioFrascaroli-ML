@@ -1,3 +1,4 @@
+ /* MOBILE */
  /* HEADER */
 .home-header {
     display: flex;
@@ -72,6 +73,7 @@
 }
 
 .home-main-container {
+    background-color: var(--lightgrey);
     display: flex;
     flex-direction: column;
     margin: 0 5px 0 5px;
@@ -90,7 +92,7 @@
     display: flex;
     flex-direction: column;
     background-color: #ffffff;
-    border-bottom: solid 10px var(--lightgrey);
+    margin-bottom: 10px;
 }
 
 .priceBox {
@@ -98,7 +100,7 @@
     flex-direction: column;
     border-top: solid 1px;
     border-color: #ebebeb;
-    margin: 15px 0 10px 0;
+    margin: 15px 0 0 0;
     padding: 10px;
 }
 
@@ -138,6 +140,7 @@
     background-color: #ffffff;
     margin: 0 5px 0 5px;
     text-align: center;
+    align-items: center;
     padding-top: 40px;
     border-bottom: solid 10px var(--lightgrey);
 }
@@ -145,24 +148,93 @@
 .footerIcons {
     color: var(--blue);
     size: 2em;
-    margin-bottom: 10px;
+    margin: 10px 0 10px 0;
 }
 
 .home-footer-container h6 {
-    margin: 10px 0 0 0;
+    margin-bottom: 0;
 }
 
-.home-footer-container p {
-    margin: 0 0 0 70px;
+.text {
     font-size: 9px;
     width: 175px;
-    padding: 0 0 40px 0;
+    margin: 0 0 25px 0;
 }
 
-.home-footer-section-copyright p {
-    font-size: 9px;
-    text-align: left;
-    margin-left: 15px;
-    width: 200px;
-    padding: 0 0 10px 0;
+.footer-topBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.footer-bottomBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+.footer-copyright {
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+/* VIEWPORT TABLET */
+@media (min-width: 768px) {
+    /* HEADER */
+.hamburger-button {
+    display: none;
+}
+
+.home-header-nav {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+}
+
+.home-header-nav-one, .home-header-nav-two {
+    margin: 0 0 0 10px;
+    padding-left: 0
+}
+    /* MAIN */
+.home-main-container {
+    margin: 0 20px 0 20px;
+}
+
+.main-title {
+    text-align: center;
+}
+
+.article-card {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100)
+}    
+
+.description {
+    display: block;
+    margin-bottom: 3px ;
+}
+    /* FOOTER */
+.home-footer-container {
+    margin: 0 20px 0 20px;
+}    
+
+.footer-topBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.footer-bottomBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+}
+
+/* VIEWPORT DESKTOP */
+/* HEADER */
+/* MAIN */
+/* FOOTER */

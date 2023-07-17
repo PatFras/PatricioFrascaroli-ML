@@ -249,7 +249,7 @@
     display: flex;
     flex-direction: row;
     gap: 1em;
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
     /* MAIN */
@@ -307,6 +307,44 @@
 }
 
 /* VIEWPORT DESKTOP */
+@media (min-width:1024px) {
 /* HEADER */
+.superbox {
+    justify-content: space-around;
+    margin-left: 0;
+}
+
+.logo-container {
+    padding: 0 1em 0 0;
+}
+
+.logo {
+    width: 350px;
+}
+
+.searchbar-container {
+    width: 200px;
+}
+
+.input {
+    width: 200px;
+}
 /* MAIN */
+.section-box-top {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.articles {
+    gap: 1em;
+}
+
+.section-box-bottom {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
 /* FOOTER */
+}
+

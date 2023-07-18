@@ -310,12 +310,13 @@
 @media (min-width:1024px) {
 /* HEADER */
 .superbox {
-    justify-content: space-around;
-    margin-left: 0;
+    justify-content: space-between;
+    margin: 1em 6em 1em 2.5em;
 }
 
 .logo-container {
     padding: 0 1em 0 0;
+    margin-left: 0;
 }
 
 .logo {

@@ -1,0 +1,23 @@
+.form-container {
+    background-color: #EAC926;
+    padding: 3em;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.form-container img {
+    width: 15em;
+}
+
+.form-container h1 {
+    font-size: 26px;
+}
+
+@media (min-width:768px) {
+    .form-container {
+        margin: 2em 2em;
+        padding: 3em 9em;
+    }
+}

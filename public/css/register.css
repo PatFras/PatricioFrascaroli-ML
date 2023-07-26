@@ -1,10 +1,16 @@
 .form-container {
     background-color: #EAC926;
     padding: 3em;
+    margin: 1em;
     border-radius: 1em;
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
+}
+
+.form-container img {
+    width: 10em;
 }
 
 .form-container h1 {
@@ -99,6 +105,10 @@ input[type=reset] {
         align-items: center;
     }    
 
+    .topBox {
+        margin: 0 1em;
+    }
+
     .rolBox {
         justify-content: center;
         margin: 0;
@@ -112,12 +122,11 @@ input[type=reset] {
 
     input[type=file] {
         width: auto;
-    }
+    }   
 }
 
 @media (min-width:1024px) {
     .form-container {
-        margin: 3em 10em;
-        padding: 3em 15em;
+       margin: 1em;
     }
 }

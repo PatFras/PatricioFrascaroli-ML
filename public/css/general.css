@@ -15,10 +15,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1 {
-    color: grey;
-}
-
 main section article i {
     display: block; 
     font-size: 16px;

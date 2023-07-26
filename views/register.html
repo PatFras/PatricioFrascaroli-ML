@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/register.css">
+    <title>Register</title>
+</head>
+
+<body>
+
+    <div class="form-container">
+
+        <a href="/"><img src="/images/logo-mercado-liebre.svg" alt=""></a>
+
+        <form action="/register">
+
+            <h1>Register</h1>
+
+            <div class="topBox">
+                <label for="fname"></label>
+                <input type="text" id="fname" name="fullname" placeholder="Full name">
+
+                <label for="e-mail"></label>
+                <input type="text" id="e-mail" name="email" placeholder="E-mail">
+
+                <label for="address"></label>
+                <input type="text" id="address" name="address" placeholder="Address">
+
+                <label for="uname"></label>
+                <input type="text" id="uname" name="username" placeholder="User name">
+
+                <label for="password"></label>
+                <input type="password" id="password" name="password" placeholder="Password">
+
+                <label for="password"></label>
+                <input type="password" id="password" name="password" placeholder="Repeat password">
+            </div>
+
+
+            <div class="birthdayBox">
+                <h4>Birthday</h4>
+                <label for="bday"></label>
+                <input type="date" id="bday" name="birthday">
+            </div>
+
+            <h4>User rol</h4>
+
+            <div class="rolBox">
+                <div>
+                    <input type="checkbox" id="customer" name="userRol">
+                    <span>Customer</span>
+                </div>
+                <div>
+                    <input type="checkbox" id="seller" name="userRol">
+                    <span>Seller</span>
+                </div>
+            </div>
+
+            <h4>I'm interested in</h4>
+
+            <div class="categoriesBox">
+                <div>
+                    <input type="checkbox" id="electro" name="electro">
+                    <label for="electro">Electronic</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="fashion" name="fashion">
+                    <label for="fashion">Fashion</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="home" name="home">
+                    <label for="home">Home</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="toys" name="toys">
+                    <label for="toys">Toys</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="healt" name="healt">
+                    <label for="healt">Healt life</label>
+                </div>
+            </div>
+
+            <h4>Upload image</h4>
+
+            <div class="photoBox">
+                <label for="photo"></label>
+                <input type="file" id="photo" name="photo">
+            </div>
+
+            <div class="buttonBox">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Clear">
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>

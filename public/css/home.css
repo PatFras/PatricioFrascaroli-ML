@@ -45,8 +45,8 @@
 
 .home-header p {
     text-align: center;
-    margin-bottom: 20px;
     font-size: 12px;
+    margin: 0;
 }
 
 .home-header-nav {
@@ -191,18 +191,13 @@
 .superbox {
     display: flex;
     flex-direction: row;
-    margin: 20px;
     max-width: 100%;
+    margin: 0.5em;
 }
 
 .home-header-container {
     align-items: center;
     gap: 1em;
-}
-
-.logo-container {
-    flex-basis: 50%;
-
 }
 
 .logo {
@@ -224,10 +219,6 @@
     flex-basis: none;
     flex-direction: row;
     align-items: center;
-}
-
-.frase-container p {
-    margin: 0 0 0 60px;
 }
 
 .home-header-nav {
@@ -322,7 +313,7 @@
 }
 
 .searchbar-container {
-    width: 200px;
+    width: 25em;
 }
 
 .input {

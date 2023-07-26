@@ -10,39 +10,37 @@
 .home-header-container {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    margin: 1em;
+    width: 90%;
+    gap: 0.5em;
 }
 
 .logo-container {
-    flex-basis: 50%;
-}
-
-.logo {
-    margin-top: 20px;
-    margin-left: 25px;
-    width: 140px;    
+    width: 50%;
+    margin-top: 1em;
 }
 
 .searchbar-container {
     display: flex;
     flex-direction: row;
     position: relative;
-    flex-basis: 50%;
     align-items: center;
+    margin-top: 0.5em;
+    width: 50%;
 }
 
 .input {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     margin: 15px 0 0 5px;
-    width: 140px;
+    width: 130px;
     border-radius: 10px;
 }
 
 .lupa {
     position: absolute;
-    right: 15px;
-    top: calc(65% - 3px);
+    right: 10px;
+    top: calc(60% - 5.5px);
 }
 
 .home-header p {

@@ -4,12 +4,13 @@
     flex-direction: column;
     background-color: var(--yellow);
     padding-bottom: 15px;
+    width: 100%;
 }
 
 .home-header-container {
     display: flex;
     flex-direction: row;
-    margin: 1em;
+    margin: 0.5em 1em;
     width: 90%;
     gap: 0.5em;
 }
@@ -17,6 +18,10 @@
 .logo-container {
     width: 50%;
     margin-top: 1em;
+}
+
+.logo-container img {
+    width: 9em;
 }
 
 .searchbar-container {
@@ -28,10 +33,10 @@
     width: 50%;
 }
 
-.input {
+.searchbar-container input {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
-    margin: 15px 0 0 5px;
+    margin: 0px 0 0 5px;
     width: 130px;
     border-radius: 10px;
 }
@@ -199,9 +204,8 @@
     margin: 0;
 }
 
-.logo {
-    width: 250px;
-    margin: 0;
+.logo-container img {
+    width: 12em;
 }
 
 .searchbar-container {
@@ -316,13 +320,8 @@
     margin: 1em 6em 1em 2.5em;
 }
 
-.logo-container {
-    padding: 0 1em 0 0;
-    margin-left: 0;
-}
-
-.logo {
-    width: 350px;
+.logo-container img {
+    width: 16em;
 }
 
 .searchbar-container {

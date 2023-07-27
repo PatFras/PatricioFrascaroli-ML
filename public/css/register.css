@@ -1,6 +1,6 @@
 .form-container {
     background-color: #EAC926;
-    padding: 3em;
+    padding: 2em;
     margin: 0.5em 1em;
     border-radius: 1em;
     display: flex;
@@ -155,7 +155,7 @@ input[type=reset] {
     }
 
     .form-container img {
-        width: 10em;
+        width: 16em;
     }
 
     .form-container h1 {

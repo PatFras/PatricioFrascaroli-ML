@@ -45,6 +45,7 @@
     position: absolute;
     right: 10px;
     top: calc(60% - 5.5px);
+    cursor: pointer;
 }
 
 .home-header p {

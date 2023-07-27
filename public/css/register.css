@@ -1,7 +1,7 @@
 .form-container {
     background-color: #EAC926;
     padding: 3em;
-    margin: 1em;
+    margin: 0.5em 1em;
     border-radius: 1em;
     display: flex;
     flex-direction: column;
@@ -14,7 +14,13 @@
 }
 
 .form-container h1 {
-    font-size: 22px;
+    font-size: 18px;
+    margin: 1em 0 0 0;
+}
+
+.form-container h2 {
+    font-size: 16px;
+    margin: 1em 0 0.5em 0;
 }
 
 .topBox input {
@@ -33,18 +39,21 @@
     gap: 0.5em;
 }
 
-.rolBox input, span {
+.rolBox input,
+span {
     cursor: pointer;
 }
 
 .categoriesBox {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+    text-align: initial;
     gap: 0.5em;
 }
 
-.categoriesBox input, label {
+.categoriesBox input,
+label {
     cursor: pointer;
 }
 
@@ -68,7 +77,6 @@ input[type=text],
 .buttonBox {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     gap: 0.5em;
 }
 
@@ -95,18 +103,23 @@ input[type=reset] {
 }
 
 @media (min-width:768px) {
+
     .form-container {
-        margin: 2em 2em;
-        padding: 3em 9em;
+        padding: 2em;
+        margin: 3em 5em;
     }
 
     .form-container img {
-        width: 20em;
+        width: 15em;
         align-items: center;
-    }    
+    }
 
     .topBox {
-        margin: 0 1em;
+        margin: 0 8em;
+    }
+
+    .birthdayBox {
+        margin: 0 8em;
     }
 
     .rolBox {
@@ -117,16 +130,61 @@ input[type=reset] {
 
     .categoriesBox {
         flex-direction: row;
-        justify-content: space-between
+        justify-content: center;
+        text-align: initial;
+        gap: 1em;
+    }
+
+    .photoBox {
+        margin: 0 8em;
     }
 
     input[type=file] {
         width: auto;
-    }   
+    }
+
+    .buttonBox {
+        margin: 0 8em;
+    }
 }
 
 @media (min-width:1024px) {
     .form-container {
-       margin: 1em;
+        padding: 2em 8em;
+        margin: 2em 14em;
+    }
+
+    .form-container img {
+        width: 10em;
+    }
+
+    .form-container h1 {
+        font-size: 20px;
+    }
+
+    .form-container h2 {
+        font-size: 16px;
+    }
+
+    .topBox {
+        margin: 0 12em;
+    }
+
+    .birthdayBox {
+        margin: 0 12em;
+    }
+
+    input[type=text],
+    [type=password],
+    [type=date] {
+        padding: 6px 20px;
+    }
+
+    .photoBox {
+        margin: 0 12em;
+    }
+
+    .buttonBox {
+        margin: 0 12em;
     }
 }

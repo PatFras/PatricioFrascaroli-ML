@@ -77,6 +77,7 @@
 
  .main-banner {
      width: 100%;
+     cursor: pointer;
  }
 
  .home-main-container {
@@ -93,6 +94,7 @@
  .main-product-image {
      width: 100%;
      margin-bottom: 0.1px;
+     cursor: pointer;
  }
 
  .article-card {
@@ -128,6 +130,7 @@
  .prices {
      font-size: 18px;
      flex-basis: 30%;
+     text-align: center;
  }
 
  .discount {
@@ -138,13 +141,14 @@
 
 .articles {
     align-items: flex-start;
-
  }
 
  article h4 {
      height: 0;
      overflow: hidden;
      transition: all 1s ease;
+     text-align: left;
+     margin: 0 0 0 1em;
  }
 
  article:hover h4 {
@@ -239,13 +243,18 @@
          margin: 0;
      }
 
+     .logo-container {
+        width: auto;
+     }
+
      .logo-container img {
          width: 12em;
      }
 
      .searchbar-container {
          flex-basis: none;
-         width: 12em;
+         width: 14em;
+         margin: 0 0 0 2.5em;
      }
 
      .input {
@@ -350,10 +359,12 @@
 
      .logo-container img {
          width: 16em;
+
      }
 
      .searchbar-container {
          width: 20em;
+         margin: 0 0 0 10em;
      }
 
      .input {

@@ -101,6 +101,11 @@
      background-color: #ffffff;
      margin-bottom: 10px;
      flex-basis: 100%;
+     transition: all 1s ease;
+ }
+
+ .article-card:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
  }
 
  .priceBox {
@@ -133,6 +138,7 @@
 
 .articles {
     align-items: flex-start;
+
  }
 
  article h4 {
@@ -143,6 +149,22 @@
 
  article:hover h4 {
     height: 20px;
+ }
+
+ main section article i:hover {
+    animation: rotate 1s;
+ }
+
+ @keyframes rotate {
+    0%{
+        transform: rotate(0);
+    }
+    50%{
+        transform: rotate(-90deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
  }
 
 
@@ -282,10 +304,6 @@
          flex-direction: column;
      }
 
-     .article-card {
-         box-shadow: 0px 0px 10px rgb(100, 100, 100);
-     }
-
      .articles {
          display: flex;
          flex-direction: row;
@@ -374,7 +392,7 @@
      }
 
      .text {
-         font-size: 16px;
+         font-size: 14px;
          margin: 0 0 0 1.5em;
      }
 
